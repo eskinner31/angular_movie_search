@@ -1,0 +1,11 @@
+<main>
+  <div ng-repeat="movie in results">
+
+    <ul>
+      <li>{{movie.Title}}</li>
+      <li>{{movie.Year}}</li>
+      <li><a href="/#/{{movie.imdbID}}">{{movie.imdbID}}</a></li>
+    </ul>
+  </div>
+  <h1>This is the Home Partial</h1>
+</main>
